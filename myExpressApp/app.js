@@ -22,7 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/software', indexRouter);
+app.use('/restricted', indexRouter);
+app.use('/software', softwareRouter);
 
 //static
 //app.use(express.static('public'))

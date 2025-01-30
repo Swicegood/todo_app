@@ -1,7 +1,8 @@
 extends layout 
 
-block content
+block body 
     p create new task 
     p 
-    input(type="text", name="")
+    label(for="new") New:
+    input(type="text", name="name", id="new")
     
