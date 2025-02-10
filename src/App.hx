@@ -31,6 +31,15 @@ class App extends ReactComponent {
 		');
 	}
 
+	function renderItems(){
+		for (v in items){
+			jsx('
+			<p>{v.name}</p>
+			');
+		}
+		return;
+	}
+
 	function newItem() {
 		return jsx('
 			<input name ="new item" />
