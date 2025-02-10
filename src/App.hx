@@ -32,12 +32,9 @@ class App extends ReactComponent {
 	}
 
 	function renderItems(){
-		for (v in items){
-			jsx('
-			<p>{v.name}</p>
-			');
-		}
-		return;
+		return jsx('
+		<p></p>
+		');
 	}
 
 	function newItem() {

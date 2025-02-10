@@ -1,7 +1,8 @@
+--debug
 --library modular
 --library react
 --library react-router
 --library redux
 --library hxnodejs
---js bin/App.js
 --main src.App
+--js bin/App.js
