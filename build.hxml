@@ -1,4 +1,3 @@
---debug
 --library modular
 --library react
 --library react-router
@@ -6,3 +5,7 @@
 --library hxnodejs
 --main src.App
 --js bin/App.js
+--library msignal
+-D react_global
+-D react_ver=16.3
+#-D react_no_inline
